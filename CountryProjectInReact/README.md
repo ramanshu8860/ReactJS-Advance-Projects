@@ -1,8 +1,28 @@
-# React + Vite
+After Downloading the Project from my Git or after cloning the project using any IDE to open it like Visual Studio:
+Then Run Following Commands
+1) Open the Project with Visual Studio or any IDE.
+2) Then run the following Command:
+    //   FOR NPM: 
+    i) npm install
+   ii) npm install react-router-dom
+   iii) if you are using Vite for Creating React JS project:
+         then run :
+           npm install @vitejs/plugin-react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   Then, update your vite.config.js:
+    import { defineConfig } from 'vite';
+     import react from '@vitejs/plugin-react';
 
-Currently, two official plugins are available:
+   export default defineConfig({
+        plugins: [react()],
+   });
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   if the plugin is already added then leave it:
+
+
+
+In short run these Commands:
+    i) npm install
+    ii) npm install react-router-dom
+    iii) npm install @vitejs/plugin-react
+   
